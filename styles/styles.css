@@ -65,6 +65,57 @@ h1 {
 .botones_inicio {
     background-color: darkseagreen;
 }
+.portada {
+    display: flex;
+    gap: 10px;
+    height: 200px;
+    background-color: #838383;  
+    padding: 10px 20px;
+    align-items: stretch;
+}
+.portada img {
+    flex: 1;
+}
+.portada__detallesContainer {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+.portada__detallesContainer h1, .portada__detallesContainer p {
+ text-align: center;
+}
+.portada__detallesContainer p {
+    font-size: 22px;
+    margin-top: 15px;
+}
+.portada__detalles--botonesContainer {
+    align-self: bottom;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: auto;
+}
+.portada__detalles--botonesContainer button {
+    border: none;
+    outline: none;
+    width: 200px;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s all ease;
+}
+.portada__detalles--botonesContainer button:first-of-type {
+    color: #ffffff;
+    background-color: #000000;
+}
+.portada__detalles--botonesContainer button:last-of-type {
+    color: #000000;
+    background-color: #ffffff;
+}
+.portada__detalles--botonesContainer button:hover {
+    border-radius: 10px;
+}
 /* index */
 
 /* FOOTER */
