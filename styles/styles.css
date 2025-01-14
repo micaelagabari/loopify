@@ -1,0 +1,134 @@
+* {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* ESTILOS GENERALES */
+
+h1 {
+    font-size: 38px;
+    text-decoration: underline;
+    color: chocolate;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.italic {
+    font-style: italic;
+}
+.negrita {
+    font-weight: bold;
+}
+
+/* ESTILOS GENERALES */
+
+/* --------------- NAVEGACION --------------- */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+#logo_loopify {
+    height: 50px;
+    width: 50px;
+}
+.nav_listado {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.nav_link {
+    color:blue;
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: none;
+}
+#inicio {
+    background-color: darkgrey;
+}
+#logo_usuario {
+    height: 40px;
+    width: 40px;
+}
+/* --------------- NAVEGACION --------------- */
+
+/* index */
+
+.titulo_card_inicio {
+    color: tomato;
+    font-size: 24px;
+    font-weight: 600;
+}
+.botones_inicio {
+    background-color: darkseagreen;
+}
+/* index */
+
+/* FOOTER */
+
+.texto_footer {
+    font-size: 12px;
+}
+.datos_footer {
+    font-size: 18;
+}
+.img_footer {
+    width: 32px;
+    height: 32px;
+}
+/* FOOTER */
+
+/* SOBRE NOSOTROS */
+
+.img_nosotros {
+    width: 100px;
+    height: 100px;
+}
+.metas_nosotros {
+    background-color: yellowgreen;
+    color: crimson;
+    font-size: 20px;
+}
+
+/* SOBRE NOSOTROS */
+
+/* SERVICIOS */
+
+.titulo_servicios {
+    font-size: 32px;
+    color: aqua;
+    background-color: teal;
+}
+.boton_servicios {
+    background-color: darkgreen ;
+}
+
+/* SERVICIOS */
+
+/* RESEÑAS */
+
+.img_resenia {
+    width: 100px;
+    height: 100px;
+}
+.resenia_contenedor {
+    width: 250px;
+}
+.resenia {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* RESEÑAS */
+
+/* CONTACTO */
+
+.img_contacto {
+    width: 50px;
+    height: 50px;
+}
+
+/* CONTACTO */
